@@ -12,7 +12,7 @@ public class Ricorsione {
 			//la lettera alla posizione p e' la prima lettera della parola?
 			if (board.getCellValueProperty(p).get().charAt(0) 
 					==
-				parola.charAt(0)) {
+				parola.charAt(0)) { // stiamo confrontando carattere, non stringhe, quindi possiamo usare ==
 					//Chiamare il metodo ricorsiva
 					List<Pos> parziale = new ArrayList<Pos>();
 					parziale.add(p);

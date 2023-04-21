@@ -73,7 +73,7 @@ public class Board {
 			int random = (int)(Math.random()*26) ;
 			String letter = Character.toString((char)('A'+random)) ;
 			
-			//grazie al "binding" fatto in FXMLController, la "set" modifica direttamente il testo del botone collegato alla posizione corrente
+			//grazie al "binding" fatto in FXMLController, la "set" modifica direttamente il testo del bottone collegato alla posizione corrente
 			this.cells.get(p).set(letter); 
 		}
 	}
